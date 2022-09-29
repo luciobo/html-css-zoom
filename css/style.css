@@ -8,22 +8,23 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
+.main-container {
+    
 }
 /* ----------------------- modifiche barra superiore */
 .nav-superiore {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     background-color: black;
     color: white;
     padding-bottom: 1rem;
+    height: 50px;
+    background-color: red;
 }
 
 .nav-sup-fill {
     background-color: rgba(219,219,219,0.5);
-    padding: .1rem;
+    padding: .3rem;
     display: inline-block;
     border-radius: 8px;   
     border-style: none;
@@ -31,3 +32,14 @@ main {
 
 /* ------------------------ classi sezione primaria */
 
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100vh - 100px - 50px);
+    background-color: pink;
+}
+
+footer {
+    height: 100px;
+    background-color: yellow;
+}
