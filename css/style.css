@@ -7,3 +7,26 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+/* ----------------------- modifiche barra superiore */
+.nav-superiore {
+    display: flex;
+    justify-content: end;
+    background-color: black;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.nav-sup-fill {
+    background-color: rgba(219,219,219,0.5);
+    padding: .1rem;
+    display: inline-block;
+    border-radius: 8px;   
+}
+
+/* ------------------------ classi sezione primaria */
+
