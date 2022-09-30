@@ -38,11 +38,10 @@ img {
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: flex-start;
     height: calc(100vh - 100px - 50px);
     background-color: black;
-    padding: 0 1vw;
+    padding: 0 5vw;
     gap: 4px;
 }
 
@@ -50,6 +49,7 @@ img {
     background-color: blue;
     flex-basis: calc((100% - 24px) / 7);
 }
+    
 
 footer {
     height: 100px;
